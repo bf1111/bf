@@ -27,7 +27,7 @@
                     <a class="blog-nav-item " href="/bf/index/index.php">首页</a>
                 </li>
                 <li>
-                    <a class="blog-nav-item" href="/bf/index/create.article.php">写文章</a>
+                    <a class="blog-nav-item" href="/bf/index/createarticle.php">写文章</a>
                 </li>
                 <li>
                     <input name="query" type="text" value="" class="form-control" style="margin-top:10px" placeholder="搜索词">
