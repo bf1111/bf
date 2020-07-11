@@ -1,5 +1,5 @@
 <?php
-require_once '../common/regsession.php';
+// require_once '../common/regsession.php';
 require_once '../common/config.php';
 require_once '../common/fun.php';
 require_once '../common/db_class.php';
