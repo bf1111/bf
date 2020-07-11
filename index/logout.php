@@ -7,7 +7,6 @@ $_SESSION['user_id'] = "";
 $_SESSION = array();
 session_destroy();  //销毁数据
 // 跳转
-if(empty($_SESSION)){
-    alertExit('退出成功',LOGINPAGE);
+if (empty($_SESSION)) {
+    alertExit('退出成功', LOGINPAGE);
 }
-
