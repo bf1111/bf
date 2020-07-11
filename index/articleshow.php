@@ -134,7 +134,7 @@ $comments = $db->db_select("", "article_id=" . "'" . $article_id . "'");
 
                     <!-- List group -->
                     <ul class="list-group">
-                        <form action="/bf/index/comment.php" method="post">
+                        <form action="/19/bf/index/comment.php" method="post">
                             <input type="hidden" name="article_id" value="<?php echo $_GET['article_id']; ?>" />
                             <li class="list-group-item">
                                 <textarea name="cont" class="form-control" rows="10"></textarea>
