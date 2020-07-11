@@ -2,6 +2,7 @@
 require_once '../common/config.php';
 require_once '../common/fun.php';
 //清除session
+session_start();
 $_SESSION['user_name'] = "";
 $_SESSION['user_id'] = "";
 $_SESSION = array();
