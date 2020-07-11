@@ -101,7 +101,7 @@ $res = $db->db_setlimit($page, 1);
                         <?php
                         for ($i = 1; $i <= $res['page']; $i++) {
                         ?>
-                            <li><a href="/19/bf/index/index.php/?page=<?php echo $i ?>"><span><?php echo $i; ?></span></a></li>
+                            <li><a href="/19/bf/index/index.php?page=<?php echo $i ?>"><span><?php echo $i; ?></span></a></li>
                         <?php
                         }
                         ?>
