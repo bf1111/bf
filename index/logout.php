@@ -2,8 +2,8 @@
 require_once '../common/config.php';
 require_once '../common/fun.php';
 //清除session
-$_SESSION['user_name'] = null;
-$_SESSION['user_id'] = null;
+$_SESSION['user_name'] = "";
+$_SESSION['user_id'] = "";
 $_SESSION = array();
 session_destroy();  //销毁数据
 // 跳转
