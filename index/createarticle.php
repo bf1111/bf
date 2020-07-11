@@ -58,7 +58,7 @@
         <div class="row">
 
             <div class="col-sm-8 blog-main">
-                <form action="add_article.php" method="POST">
+                <form action="addarticle.php" method="POST">
                     <div class="form-group">
                         <label>标题</label>
                         <input name="title" type="text" class="form-control" placeholder="这里是标题">

@@ -88,7 +88,7 @@ $res = $db->db_setlimit($page, 1);
                     foreach ($res['data'] as $data) {
                     ?>
                         <div class="blog-post">
-                            <h2 class="blog-post-title"><a href="article_show.php/?article_id=<?php echo $data['id'] ?>"><?php echo $data['title'] ?></a></h2>
+                            <h2 class="blog-post-title"><a href="articleshow.php/?article_id=<?php echo $data['id'] ?>"><?php echo $data['title'] ?></a></h2>
                             <p class="blog-post-meta"><?php echo $data['time']; ?> <a href="/user/5"></a></p>
 
                             <p><?php echo subtext($data['cont']) ?>
