@@ -3,7 +3,7 @@
 //数据库
 define('HOST','127.0.0.1');
 define('USERNAME','root');
-define('PASSWORD','root');
+define('PASSWORD','123456');
 define('DBNAME','article');
 
 //页面信息
