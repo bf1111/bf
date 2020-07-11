@@ -10,7 +10,7 @@ define('DBNAME','article');
 define('LOGINPAGE', 'login.html');   //登录页面
 define('INDEXPAGE','index.php');     //首页
 define('REGISTERPAGE','register.html');  //注册页面
-define('ARTICLEPAGE','create_article.php');   //发布文章页面
-define("ARTICLEEDITPAGE",'article_edit.php');  //编辑文章页面
+define('ARTICLEPAGE','createarticle.php');   //发布文章页面
+define("ARTICLEEDITPAGE",'articleedit.php');  //编辑文章页面
 define('PINGLUNPAGE','pinglun.php');   //评论页面
 ?>
