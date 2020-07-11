@@ -14,7 +14,7 @@ if (empty($_GET['page'])) {
 } else {
     $page = intval($_GET['page']);
 }
-$res = $db->db_setlimit($page, 1);
+$res = $db->db_setlimit($page, 15);
 
 
 ?>
