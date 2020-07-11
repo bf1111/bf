@@ -3,6 +3,7 @@ header('Content-Type:text/html;charset=utf-8');   //设置编码格式
 require_once '../common/config.php';
 require_once '../common/fun.php';
 require_once '../common/db_class.php';
+session_start();
 
 $db = new db_class(HOST, USERNAME, PASSWORD, DBNAME);   //连接数据库
 
